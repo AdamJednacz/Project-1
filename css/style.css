@@ -1,0 +1,476 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    height:100vh ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("../assets/Image@2x.png");
+
+    color: white;
+
+}
+.main:before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color:#0000004d;
+
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.banner{
+    position: absolute;
+
+    width: 100% ;
+    height: 93px ;
+    display: flex;
+    align-items: center;
+    background-color: #00000066 ;
+    border: 2px solid grey;
+
+}
+
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.banner .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    width: 128px;
+    height: 88px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    }
+.menuelements{
+    display: flex;
+
+}
+.logoelements{
+    display: flex;
+    align-items: center;
+
+}
+
+.redtext , .whitetext{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    }
+
+.redtext{
+    padding: 5px;
+    color: red;
+}
+
+.h1main{
+
+   font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+.mainp{
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 30px;
+    font-weight: bolder;
+}
+
+.bnt1{
+    display: flex;
+    width:200px ;
+    height: 55px;
+    border-radius: 60px;
+    background-color:#FF0000 ;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    text-decoration: none  ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px #FF00004D;
+
+}
+
+.bnt2{
+    display: flex;
+    width:200px ;
+    height: 55px;
+    border-radius: 60px;
+    background-color:#FFFFFF ;
+    color: #FF0000;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    text-decoration: none  ;
+    justify-content: center;
+    align-items: center;
+    margin-left:20px  ;
+}
+
+
+
+
+.bnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog{
+
+    width: 100%;
+
+
+}
+.blogtexts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogtext{
+    display: flex;
+    flex-direction: column;
+    width: 352px;
+    height: 434px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 139px 10px;
+
+}
+.blogimg{
+    width: 100%;
+    height: 100%;
+}
+.h1blog {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.bnt3{
+    display: flex;
+    width:160px ;
+    height: 70px;
+    border-radius: 60px;
+    background-color:#FF0000 ;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    text-decoration: none  ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px #FF00004D;
+}
+
+.arrow{
+    width: 50%;
+    height: 50%;
+
+}
+.arrowdiv{
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color:#FF0000 ;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    left:50% ;
+    bottom: -25px;
+    box-shadow: 0px 3px 6px #FF00004D;
+
+}
+.blogp{
+    padding-bottom:20px ;
+    padding-top: 20px;
+}
+h2{
+    padding-top:20px ;
+    font-size: larger;
+}
+.line{
+    background-color: #FF0000;
+    width: 60px;
+    height: 2px;
+
+}
+.blogline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:90px ;
+}
+
+
+.service{
+    display: flex;
+    width: 100%;
+    height: 643px;
+    background-color:#28272C ;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.servicediv{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.serviceimg{
+    width: 170px;
+    height: 170px;
+    margin: 20px;
+
+ }
+
+.h2service{
+    margin: 20px;
+    text-transform: uppercase;
+}
+.pservice{
+    color: #B2B2B2;
+    text-align: center;
+
+}
+
+.servicetexts{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    justify-content: space-between;
+
+}
+
+
+.servicetext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1service {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+.serviceline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:120px ;
+    margin-bottom:90px ;
+}
+
+.bnt4{
+    display: flex;
+    width:160px ;
+    height: 40px;
+    border-radius: 60px;
+    background-color:#FF0000 ;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    text-decoration: none  ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px #FF00004D;
+    margin: 20px;
+
+}
+
+.contact{
+    width: 100%;
+    height: 600px;
+
+}
+
+.cars{
+    width: 444px;
+    height: 320px;
+    margin-bottom: 60px;
+}
+.contactline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:90px ;
+    margin-bottom:90px ;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+
+.bnt5{
+    display: flex;
+    width:160px ;
+    height: 40px;
+    border-radius: 60px;
+    background-color:#FFFFFF ;
+    border: 1px solid #FF0000 ;
+    color: #FF0000;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    text-decoration: none  ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px #FF00004D;
+    margin: 20px;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.form_inputs{
+    display: flex;
+    flex-direction: column;
+    padding:20px ;
+}
+.name{
+    width: 100%;
+    height: 38px;
+    border:1px solid #FF0000;
+    box-shadow: 0px 1px 6px #FF00004D;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+.email{
+    width: 100%;
+    height: 38px;
+    border:1px solid #D1D1D1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.message{
+    width: 100%;
+    height: 140px;
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color:#28272C ;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.topfooter{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding:22px ;
+
+
+}
+.redtextfooter{
+    color: #FF0000;
+    margin-left:4px ;
+}
+.whitetextfooter{
+    margin-left: 8px;
+}
+.info{
+    width:1088px ;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap ;
+
+}
+.pinfo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pcopyright{
+    font-size: 10px;
+    color: #D1D1D1;
+    ;
+}
+.formspan{
+
+    padding: 10px;
+    color: #B2B2B2;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.copyright{
+    display: flex;
+    align-items: flex-end;
+}
